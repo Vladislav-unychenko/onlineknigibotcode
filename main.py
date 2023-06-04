@@ -203,7 +203,8 @@ def callback_inline(call):
 			bot.register_next_step_handler(send,func.update_books_name)
 
 
-
+def name_books(fff):
+	print(fff)
 
 if __name__ == '__main__':
 	bot.polling()	
